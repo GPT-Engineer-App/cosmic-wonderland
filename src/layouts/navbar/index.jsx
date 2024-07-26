@@ -3,10 +3,12 @@ import { Outlet } from "react-router-dom";
 import { DesktopNavbar } from "./_components/DesktopNavbar";
 import { MobileSheet } from "./_components/MobileSheet";
 import Footer from "@/components/Footer";
+import TwinklingStars from "@/components/TwinklingStars";
 
 const Layout = () => {
   return (
-    <div className="flex min-h-screen w-full flex-col bg-[url('/stars-bg.jpg')] bg-cover bg-fixed">
+    <div className="flex min-h-screen w-full flex-col bg-gray-900">
+      <TwinklingStars />
       <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b border-gray-700 bg-gray-900 bg-opacity-80 px-4 md:px-6 justify-between">
         <DesktopNavbar navItems={navItems} />
         <MobileSheet navItems={navItems} />
