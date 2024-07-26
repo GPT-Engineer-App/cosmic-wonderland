@@ -3,8 +3,8 @@ import { Rocket, Star, Globe, Satellite } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-blue-900 text-white">
-      <header className="container mx-auto py-16 text-center">
+    <div className="min-h-screen bg-gradient-to-b from-black to-blue-900 text-white pt-16">
+      <header className="container mx-auto py-8 text-center">
         <h1 className="text-5xl font-bold mb-4">Explore the Cosmos</h1>
         <p className="text-xl mb-8">Embark on a journey through the wonders of space</p>
         <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
