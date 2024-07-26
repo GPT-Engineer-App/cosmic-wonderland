@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Rocket, Star, Planet, Satellite } from "lucide-react";
+import { Rocket, Star, Globe, Satellite } from "lucide-react";
 
 const Index = () => {
   return (
@@ -17,7 +17,7 @@ const Index = () => {
           {[
             { icon: <Rocket className="h-12 w-12 mb-4" />, title: "Space Exploration" },
             { icon: <Star className="h-12 w-12 mb-4" />, title: "Stellar Phenomena" },
-            { icon: <Planet className="h-12 w-12 mb-4" />, title: "Exoplanets" },
+            { icon: <Globe className="h-12 w-12 mb-4" />, title: "Exoplanets" },
             { icon: <Satellite className="h-12 w-12 mb-4" />, title: "Space Technology" },
           ].map((item, index) => (
             <div key={index} className="bg-blue-800 p-6 rounded-lg text-center">
