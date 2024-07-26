@@ -3,9 +3,9 @@ import { Rocket, Star, Globe, Satellite } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-[url('/stars-bg.jpg')] bg-cover bg-center text-white pt-16">
+    <div className="min-h-screen bg-[url('/stars-bg.jpg')] bg-cover bg-center text-white">
       <div className="bg-black bg-opacity-50 min-h-screen">
-        <header className="container mx-auto py-16 text-center">
+        <header className="container mx-auto py-12 text-center">
           <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
             Explore the Cosmos
           </h1>
