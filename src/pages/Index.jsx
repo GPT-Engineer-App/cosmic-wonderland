@@ -10,7 +10,7 @@ const Index = () => {
             Explore the Cosmos
           </h1>
           <p className="text-2xl mb-8 text-blue-200">Embark on a journey through the wonders of space</p>
-          <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-3">
+          <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-3 transition-colors duration-300">
             Start Your Adventure
           </Button>
         </header>
