@@ -6,11 +6,11 @@ const Index = () => {
     <div className="min-h-screen text-white">
       <div className="min-h-screen">
         <header className="container mx-auto py-12 text-center">
-          <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
+          <h1 className="font-heading text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
             Explore the Cosmos
           </h1>
-          <p className="text-2xl mb-8 text-blue-200">Embark on a journey through the wonders of space</p>
-          <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-3 transition-colors duration-300">
+          <p className="font-sans text-2xl mb-8 text-blue-200">Embark on a journey through the wonders of space</p>
+          <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-3 transition-colors duration-300 font-heading">
             Start Your Adventure
           </Button>
         </header>
@@ -25,15 +25,15 @@ const Index = () => {
             ].map((item, index) => (
               <div key={index} className="bg-gray-900 bg-opacity-50 p-8 rounded-lg text-center transform hover:scale-105 transition-transform duration-300">
                 {item.icon}
-                <h2 className="text-2xl font-semibold mb-2">{item.title}</h2>
-                <p className="text-blue-200">Discover the latest in {item.title.toLowerCase()} and how it's shaping our understanding of the universe.</p>
+                <h2 className="font-heading text-2xl font-semibold mb-2">{item.title}</h2>
+                <p className="font-sans text-blue-200">Discover the latest in {item.title.toLowerCase()} and how it's shaping our understanding of the universe.</p>
               </div>
             ))}
           </section>
 
           <section className="mt-24 text-center bg-gray-900 bg-opacity-50 p-12 rounded-lg">
-            <h2 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Our Mission</h2>
-            <p className="max-w-3xl mx-auto text-xl text-blue-200">
+            <h2 className="font-heading text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Our Mission</h2>
+            <p className="font-sans max-w-3xl mx-auto text-xl text-blue-200">
               We are dedicated to bringing the wonders of space to everyone. Through cutting-edge research, 
               innovative technology, and inspiring education, we aim to push the boundaries of human knowledge 
               and exploration beyond Earth.
