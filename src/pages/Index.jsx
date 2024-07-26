@@ -37,10 +37,6 @@ const Index = () => {
           </p>
         </section>
       </main>
-
-      <footer className="bg-blue-900 py-8 text-center">
-        <p>&copy; 2024 Space Exploration Initiative. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
